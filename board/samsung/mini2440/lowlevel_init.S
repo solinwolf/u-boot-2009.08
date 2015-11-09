@@ -130,7 +130,7 @@
 #define Trp    0x0 /* 2clk */
 #define REFCNT			1113	/* period=15.6us, HCLK=60Mhz, (2048+1-15.6*60) */
 #endif
-/**************************************/
+/*****************initialize memory controler and other lowlevel controlers *********************/
 
 _TEXT_BASE:
 	.word	TEXT_BASE
